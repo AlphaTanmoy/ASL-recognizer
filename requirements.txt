@@ -1,4 +1,9 @@
 tensorflow
 keras
-opencv-contrib-python
 split-folders
+numpy
+opencv-python
+tensorboard
+flask
+flask_mysqldb
+bcrypt
