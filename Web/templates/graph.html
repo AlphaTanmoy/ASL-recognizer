@@ -78,8 +78,8 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">Layer formatting in the context of neural network architectures refers to the arrangement and configuration of individual layers within the network. Each layer in a neural network performs specific computations on the input data and passes the result to the next layer. Layer formatting involves defining the types, parameters, and connections between these layers to create a functional neural network model</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">In a Dense layer, parameters include the number of neurons (units), activation function, and possibly regularization settings.</p><p class="lead">In a Convolutional layer, parameters include filter size, number of filters, stride, padding, and activation function.</p>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -89,7 +89,7 @@
                     </a>
                 </div>
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="\">
+                    <a class="btn btn-xl btn-outline-light" href="{{url_for('download_file')}}">
                         <i class="fa fa-file-pdf me-2"></i>
                         Download Pdf
                     </a>
@@ -98,7 +98,7 @@
         </section>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+            <div class="container" style="color: aliceblue;"><small>Copyright &copy; Alpha</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
@@ -121,10 +121,12 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="{{url_for('static',filename='img/epoch_accuracy.JPG') }}" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">This graph depicts the trend of model accuracy over the course of training iterations or steps.</p>
+                                    <p class="mb-4">The x-axis represents the number of iterations or steps taken during the training process, while the y-axis represents the corresponding accuracy achieved by the model on a validation or test dataset.
+                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        Minimize
                                     </button>
                                 </div>
                             </div>
@@ -153,10 +155,11 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="{{url_for('static',filename='img/acc_vs_iteration.JPG') }}" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Unlike the accuracy versus iteration graph, this graph represents accuracy against epochs.</p>
+                                    <p class="mb-4">An epoch is defined as one complete pass through the entire training dataset.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        Minimize
                                     </button>
                                 </div>
                             </div>
@@ -185,10 +188,12 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="{{url_for('static',filename='img/epoch_loss.JPG') }}" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">This graph illustrates the change in loss (often measured as cross-entropy loss or another appropriate loss function) over epochs. </p>
+                                    <p class="mb-4"></p>The x-axis typically represents the epochs, while the y-axis represents the corresponding loss value.
+                                        </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        Minimize
                                     </button>
                                 </div>
                             </div>
@@ -217,10 +222,11 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="{{url_for('static',filename='img/loss_vs_iteration.JPG') }}" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">This graph illustrates how the loss function changes with respect to the number of iterations or training steps.</p>
+                                    <p class="mb-4">The x-axis typically represents the number of iterations or steps, while the y-axis represents the corresponding loss value.</p>                                        
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        Minimize
                                     </button>
                                 </div>
                             </div>
